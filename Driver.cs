@@ -1,21 +1,21 @@
 namespace Lab2
 {
-    // ================ ПРОДУКТ (часть сложного объекта) ================
+    // ПРОДУКТ (часть сложного объекта)
     public abstract class Driver
     {
         public string Name { get; set; }
         public abstract string GetCategory();
     }
 
-    // ================ КОНКРЕТНЫЕ ПРОДУКТЫ + SINGLETON ================
+    //КОНКРЕТНЫЕ ПРОДУКТЫ + SINGLETON
     public class TaxiDriver : Driver
     {
         private static TaxiDriver? _instance;
         private static readonly object _lock = new object();
 
-        private TaxiDriver() 
-        { 
-            Name = "Водитель такси"; 
+        private TaxiDriver()
+        {
+            Name = "Водитель такси";
         }
 
         public static TaxiDriver Instance
@@ -36,7 +36,7 @@ namespace Lab2
             }
         }
 
-        public override string GetCategory() => "B (легковой автомобиль)";
+        public override string GetCategory() => "B";
     }
 
     public class BusDriver : Driver
@@ -44,9 +44,9 @@ namespace Lab2
         private static BusDriver? _instance;
         private static readonly object _lock = new object();
 
-        private BusDriver() 
-        { 
-            Name = "Водитель автобуса"; 
+        private BusDriver()
+        {
+            Name = "Водитель автобуса";
         }
 
         public static BusDriver Instance
@@ -67,6 +67,6 @@ namespace Lab2
             }
         }
 
-        public override string GetCategory() => "D (автобус)";
+        public override string GetCategory() => "D";
     }
 }

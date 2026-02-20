@@ -1,6 +1,5 @@
 namespace Lab2
 {
-    // ================ ПРОДУКТ (часть сложного объекта) ================
     // Базовый класс для всех пассажиров
     public abstract class Passenger
     {
@@ -9,7 +8,7 @@ namespace Lab2
         public abstract string GetPassengerType(); // Тип пассажира
     }
 
-    // ================ КОНКРЕТНЫЕ ПРОДУКТЫ для АВТОБУСА ================
+    //КОНКРЕТНЫЕ ПРОДУКТЫ для АВТОБУСА
     public class AdultPassenger : Passenger
     {
         public override decimal TicketPrice => 100m; // Взрослый билет 100 руб
@@ -28,7 +27,7 @@ namespace Lab2
         public override string GetPassengerType() => "Ребенок";
     }
 
-    // ================ КОНКРЕТНЫЕ ПРОДУКТЫ для ТАКСИ ================
+    //КОНКРЕТНЫЕ ПРОДУКТЫ для ТАКСИ
     public class TaxiAdultPassenger : Passenger
     {
         public override decimal TicketPrice => 300m; // Взрослый в такси 300 руб

@@ -1,0 +1,15 @@
+/Users/dariprim/Documents/paps2/Lab2/bin/Debug/net10.0/Lab2
+/Users/dariprim/Documents/paps2/Lab2/bin/Debug/net10.0/Lab2.deps.json
+/Users/dariprim/Documents/paps2/Lab2/bin/Debug/net10.0/Lab2.runtimeconfig.json
+/Users/dariprim/Documents/paps2/Lab2/bin/Debug/net10.0/Lab2.dll
+/Users/dariprim/Documents/paps2/Lab2/bin/Debug/net10.0/Lab2.pdb
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.AssemblyInfoInputs.cache
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.AssemblyInfo.cs
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.csproj.CoreCompileInputs.cache
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.sourcelink.json
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.dll
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/refint/Lab2.dll
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.pdb
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/Lab2.genruntimeconfig.cache
+/Users/dariprim/Documents/paps2/Lab2/obj/Debug/net10.0/ref/Lab2.dll
