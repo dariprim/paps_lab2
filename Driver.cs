@@ -3,7 +3,7 @@ namespace Lab2
     // ПРОДУКТ (часть сложного объекта)
     public abstract class Driver
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public abstract string GetCategory();
     }
 

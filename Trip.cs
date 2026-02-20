@@ -3,7 +3,7 @@ namespace Lab2
     //Product - представляет сложный конструируемый объект
     public class Trip
     {
-        public string VehicleType { get; set; }
+        public string? VehicleType { get; set; }
         public Driver? Driver { get; set; }
         public List<Passenger> Passengers { get; private set; } = new List<Passenger>();
         public int MaxPassengers { get; set; }

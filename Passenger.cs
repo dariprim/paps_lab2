@@ -3,7 +3,7 @@ namespace Lab2
     // Базовый класс для всех пассажиров
     public abstract class Passenger
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public abstract decimal TicketPrice { get; } // Абстрактное свойство цены
         public abstract string GetPassengerType(); // Тип пассажира
     }

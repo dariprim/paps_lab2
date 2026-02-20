@@ -21,8 +21,8 @@ namespace Lab2
             taxiBuilder.RequestChildPassenger("Петя Иванов"); // кресло надо
             taxiBuilder.RequestAdultPassenger("Анна Сидорова");
             taxiBuilder.RequestAdultPassenger("Лишний пассажир"); // превысит лимит
-
-            // Распорядитель конструирует поездку
+            
+            //конструируем поездку распорядителем
             Trip taxiTrip = director.Construct(taxiBuilder);
 
             taxiTrip.PrintTripInfo();
